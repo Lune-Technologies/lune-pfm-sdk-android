@@ -1,6 +1,6 @@
 # Initialization
 
-To initialize the SDK, you simply have to create an instance of `LuneSDKManager`   that would be used across your app.
+To initialize the SDK, you simply have to create an instance of `LuneSDKManager` that would be used across your app.
 
 Provided that you will need to initialize LuneSDK with credentials, you may want to do all the prep work within a view-model. That includes things like:
 
