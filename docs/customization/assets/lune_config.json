@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "name": "config",
+    "version": "0.14"
+  },
+  "global": {
+    "palette": {
+      "ignore-dark-mode": true,
+      "light": {
+        "primary": "#153874",
+        "secondary": "#728FF0",
+        "error": "#E86161",
+        "success": "#4BB543",
+        "warning": "#FFAA59",
+        "accent": "#EDF5F4",
+        "active": "#0075E0",
+        "hint": "#66827F",
+        "foreground": "#000000",
+        "background": "#FFFFFF",
+        "card-background": "#FFFFFF",
+        "success-background": "#EDF5F4",
+        "error-background": "#FCEFEF",
+        "warn-background": "#FFF5E3",
+        "badge-foreground": "#004469",
+        "badge-background": "#EBF8FF",
+        "switch-color": "#728FF0"
+      },
+      "dark": {
+        "primary": "#153874",
+        "secondary": "#728FF0",
+        "error": "#E86161",
+        "success": "#4BB543",
+        "warning": "#FFAA59",
+        "active": "#A3BFD9",
+        "accent": "#EDF5F4",
+        "selections": "#FFFFFF",
+        "hint": "#66827F",
+        "foreground": "#FFFFFF",
+        "background": "#151515",
+        "card-background": "#2A292E",
+        "success-background": "#EDF5F4",
+        "error-background": "#FCEFEF",
+        "warn-background": "#FFF5E3",
+        "badge-foreground": "#004469",
+        "badge-background": "#EBF8FF",
+        "switch-color": "#728FF0"
+      }
+    },
+    "typography": {
+      "h0": {
+        "font": "Poppins",
+        "weight": 600,
+        "size": 20,
+        "line-height": 30
+      },
+      "h1": {
+        "font": "Poppins",
+        "weight": 600,
+        "size": 16,
+        "line-height": 24
+      },
+      "h2": {
+        "font": "Poppins",
+        "weight": 500,
+        "size": 16,
+        "line-height": 24
+      },
+      "body": {
+        "font": "Poppins",
+        "weight": 400,
+        "size": 14,
+        "line-height": 14
+      },
+      "hint": {
+        "font": "Poppins",
+        "weight": 400,
+        "size": 12,
+        "line-height": 12
+      },
+      "action": {
+        "font": "Poppins",
+        "weight": 400,
+        "size": 16,
+        "line-height": 24
+      },
+      "summary": {
+        "font": "Poppins",
+        "weight": 500,
+        "size": 14,
+        "line-height": 24
+      }
+    },
+    "searchfields": {
+      "label-padding": 12,
+      "horizontal-padding": 16,
+      "vertical-padding": 13,
+      "prepend-search-icon": true,
+      "radius": 16,
+      "border": 1,
+      "show-label": true,
+      "outlined": false,
+      "allow-emoji": false,
+      "theme": {
+        "light": {
+          "foreground": "#000000",
+          "background": "#F2F5F7",
+          "focused-background": "",
+          "outline": "#F2F5F7",
+          "focused-outline": "#F2F5F7",
+          "hint": "#69778C"
+        },
+        "dark": {
+          "foreground": "#FFFFFF",
+          "background": "#353636",
+          "focused-background": "",
+          "outline": "#353636",
+          "focused-outline": "#353636",
+          "hint": "#69778C"
+        }
+      }
+    },
+    "textfields": {
+      "label-padding": 12,
+      "horizontal-padding": 16,
+      "vertical-padding": 13,
+      "radius": 16,
+      "border": 1,
+      "show-label": true,
+      "outlined": false,
+      "allow-emoji": false,
+      "theme": {
+        "light": {
+          "foreground": "#000000",
+          "background": "#F2F5F7",
+          "focused-background": "",
+          "outline": "#F2F5F7",
+          "focused-outline": "#F2F5F7",
+          "hint": "#69778C"
+        },
+        "dark": {
+          "foreground": "#FFFFFF",
+          "background": "#353636",
+          "focused-background": "",
+          "outline": "#353636",
+          "focused-outline": "#353636",
+          "hint": "#69778C"
+        }
+      }
+    },
+    "buttons": {
+      "radius": 16,
+      "vertical-padding": 16,
+      "border": 1,
+      "outlined": false,
+      "underline-actions": false
+    },
+    "cards": {
+      "radius-small": 10,
+      "radius-medium": 15,
+      "radius-large": 15,
+      "shadow": {
+        "radius": 40,
+        "offset-x": 0,
+        "offset-y": 4
+      }
+    },
+    "tiles": {
+      "use-cards": false,
+      "icon-width": 48,
+      "icon-padding": 12,
+      "icon-border-radius": 12,
+      "horizontal-spacing": 15,
+      "vertical-spacing": 4
+    },
+    "structure": {
+      "force-latin-numbers": true,
+      "prefix-amount-currency": true,
+      "prefix-amount-sign": true,
+      "show-amount-sign": true,
+      "use-centered-header": true,
+      "show-summary-icon": true,
+      "highlight-summary-amount": false,
+      "use-warn-color-for-summary": true,
+      "override-header-color": true,
+      "use-action-for-trends": true,
+      "use-modal-header": true,
+      "show-empty-state-action": false,
+      "use-native-switch": true,
+      "minify-title-decimal-value": true
+    },
+    "date-range-button": {
+      "structure": {
+        "radius": 8,
+        "horizontal-padding": 10,
+        "vertical-padding": 4,
+        "icon-before-label": false
+      },
+      "theme": {
+        "light": {
+          "foreground": "#000000",
+          "background": "#F2F5F7"
+        },
+        "dark": {
+          "foreground": "#000000",
+          "background": "#F2F5F7"
+        }
+      }
+    },
+    "assets": {
+      "calendar": "",
+      "filter": "",
+      "sort-asc": "",
+      "sort-desc": "",
+      "arrow-up": "",
+      "arrow-down": "",
+      "arrow-left": "",
+      "arrow-right": "",
+      "chevron-left": "",
+      "chevron-right": "lune_chevron_right",
+      "income": "lune_income",
+      "expense": "lune_expenses",
+      "check": "lune_check",
+      "no-transaction": "",
+      "budget-feature": "",
+      "goal-feature": "",
+      "no-achieved-goal": "",
+      "savings-feature": "",
+      "no-data": "no_data",
+      "summary-bad": "summary_alert",
+      "summary-warn": "",
+      "summary-good": "",
+      "feedback-success": ""
+    }
+  },
+  "component-specific": {
+    "cashflow": {
+      "structure": {
+        "show-top-amount": true,
+        "show-chart-center-amount": false,
+        "show-chart-center-label": true,
+        "chart-stroke-width": 15,
+        "chart-stroke-offset": 7.5,
+        "chart-round-stroke-cap": true,
+        "alert-before-tiles": false,
+        "income-before-expense": true
+      },
+      "theme": {
+        "light": {
+          "expense": "#BA477B",
+          "income": "#728FF0"
+        },
+        "dark": {
+          "expense": "#BA477B",
+          "income": "#728FF0"
+        }
+      }
+    },
+    "expense": {
+      "structure": {
+        "show-top-amount": true,
+        "use-tile-divider": true,
+        "excluded-categories": [13]
+
+      }
+    },
+    "budget-summary": {},
+    "budget-form": {},
+    "brand-trend": {
+      "structure": {
+        "icon-size": 24,
+        "bar-padding": 10,
+        "use-card-chart": false,
+        "use-tile-divider": true,
+        "chart-stroke-width": 18,
+        "stroke-cap-radius": 8
+      }
+    },
+    "category-trend": {
+      "structure": {
+        "icon-size": 17,
+        "bar-padding": 18,
+        "use-card-chart": false,
+        "use-tile-divider": true,
+        "chart-stroke-width": 18,
+        "stroke-cap-radius": 8
+      }
+    },
+    "activity": {},
+    "category-activity": {},
+    "transaction-detail": {
+      "structure": {
+        "logo-size": 76.0,
+        "logo-border-radius": 12.0,
+        "show-report-field-label": false,
+        "use-centered-layout": true,
+        "show-report-icon": false,
+        "show-category-icon": false,
+        "allow-cancel-report": false,
+        "use-tile-divider-for-categories": true,
+        "max-tag-length": 12,
+        "show-time": false
+      },
+      "theme": {
+        "light": {
+          "reported-text": "#9E6300",
+          "reported-bg": "#FFF5E3",
+          "closed-text": "#E86161",
+          "closed-bg": "#FCEFEF",
+          "updated-text": "#469B93",
+          "updated-bg": "#DEF1EF",
+          "tag-text": "#FFFFFF",
+          "tag-bg": "#637185"
+        },
+        "dark": {
+          "reported-text": "#9E6300",
+          "reported-bg": "#FFF5E3",
+          "closed-text": "#E86161",
+          "closed-bg": "#FCEFEF",
+          "updated-text": "#469B93",
+          "updated-bg": "#DEF1EF",
+          "tag-text": "#FFFFFF",
+          "tag-bg": "#637185"
+        }
+      }
+    },
+    "category-spend-chart": {
+      "structure": {
+        "show-chart-center-amount": false,
+        "show-chart-center-label": true,
+        "chart-stroke-width": 15,
+        "chart-stroke-offset": 7.5,
+        "chart-round-stroke-cap": true,
+        "use-cards-for-annotation": false,
+        "annotation-border-radius": 12
+      },
+      "theme": {
+        "light": {
+          "segment-colors": [
+            "#ED6A2C",
+            "#F4B23E",
+            "#003978",
+            "#6B90F7",
+            "#CA3B7D"
+          ],
+          "annotation-bg": "#F2F5F7"
+        },
+        "dark": {
+          "segment-colors": [
+            "#ED6A2C",
+            "#F4B23E",
+            "#003978",
+            "#6B90F7",
+            "#CA3B7D"
+          ],
+          "annotation-bg": "#7B7D7E"
+        }
+      }
+    },
+    "brand-list": {},
+    "transaction-list": {
+      "structure": {
+        "show-trailing-rounded-indicator": true,
+        "show-trailing-category-icon": true,
+        "show-time": false
+      }
+    },
+    "category-spend-list": {
+      "category-budget-increment": 50
+    }
+  }
+}
