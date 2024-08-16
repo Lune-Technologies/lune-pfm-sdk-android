@@ -12,15 +12,15 @@ views.
 
 ### Examples are
 
-1. [Cashflow Component](fullpage/cashflow-component.md)
-2. [Expense Component](fullpage/expense-component.md)
-3. [Transaction List Component](fullpage/transaction-list-component.md)
-4. [Transaction Detail Component](fullpage/transaction-detail-component.md)
-5. [Brand Trends Component](fullpage/brand-trends-component.md)
-6. [Category Trends Component](fullpage/category-trends-component.md)
-7. [Category Spend List Component](fullpage/category-spend-list-component.md)
-8. [Brand List Component](fullpage/brand-list-component.md)
-9. [Budget Component](fullpage/budget-component.md)
+1. [Cashflow Component](full-page/cashflow-component.md)
+2. [Expense Component](full-page/expense-component.md)
+3. [Transaction List Component](full-page/transaction-list-component.md)
+4. [Transaction Detail Component](full-page/transaction-detail-component.md)
+5. [Brand Trends Component](full-page/brand-trends-component.md)
+6. [Category Trends Component](full-page/category-trends-component.md)
+7. [Category Spend List Component](full-page/category-spend-list-component.md)
+8. [Brand List Component](full-page/brand-list-component.md)
+9. [Budget Component](full-page/budget-component.md)
 
 ## Smaller (mix and match) Components
 
