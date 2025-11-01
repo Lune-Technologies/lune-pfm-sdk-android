@@ -398,6 +398,13 @@ You can find a list of the images you can override here:
 
 [lune-asset-names.txt](https://t4627279.p.clickup-attachments.com/t4627279/5de6dad7-b11a-4798-a11d-d63e072247b2/lune-asset-names.txt)
 
+# ProGuard / R8 Rules
+If your app uses ProGuard or R8, add the following rule to avoid obfuscation issues:
+
+```proguard
+-keep class io.lunedata.lunesdk.** { *; }
+```
+
 # Components
 
   
